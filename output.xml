@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.5 on win32)" generated="20230922 23:56:14.066" rpa="false" schemaversion="4">
+<suite id="s1" name="Amazon Testes" source="d:\workspace\robotFramework\WebTesting\amazon_testes.robot">
+<test id="s1-t1" name="Caso de Teste 01 - Acesso ao menu &quot;Eletrônicos&quot;" line="9">
+<kw name="Abrir o navegador" library="amazon_resources" type="SETUP">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>browser=chrome</arg>
+<arg>options=add_experimental_option("detach", True)</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230922 23:56:14.288" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
+<status status="PASS" starttime="20230922 23:56:14.287" endtime="20230922 23:56:15.717"/>
+</kw>
+<status status="PASS" starttime="20230922 23:56:14.286" endtime="20230922 23:56:15.717"/>
+</kw>
+<kw name="Acessar a home page do site Amazon.com.br">
+<msg timestamp="20230922 23:56:15.720" level="FAIL">No keyword with name 'Acessar a home page do site Amazon.com.br' found.</msg>
+<status status="FAIL" starttime="20230922 23:56:15.720" endtime="20230922 23:56:15.721"/>
+</kw>
+<kw name="Entrar no menu &quot;Eletrônicos&quot;">
+<status status="NOT RUN" starttime="20230922 23:56:15.724" endtime="20230922 23:56:15.724"/>
+</kw>
+<kw name="Verificar se o título da página fica &quot;Eletrônicos e Tecnologia | Amazon.com.br&quot;">
+<status status="NOT RUN" starttime="20230922 23:56:15.726" endtime="20230922 23:56:15.727"/>
+</kw>
+<kw name="Verificar se aparece a frase &quot;Eletrônicos e Tecnologia&quot;">
+<status status="NOT RUN" starttime="20230922 23:56:15.729" endtime="20230922 23:56:15.729"/>
+</kw>
+<kw name="Verificar se aparece a categoria &quot;Computadores e Informática&quot;">
+<status status="NOT RUN" starttime="20230922 23:56:15.732" endtime="20230922 23:56:15.732"/>
+</kw>
+<kw name="Fechar o navegador" library="amazon_resources" type="TEARDOWN">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20230922 23:56:15.733" endtime="20230922 23:56:17.809"/>
+</kw>
+<status status="PASS" starttime="20230922 23:56:15.732" endtime="20230922 23:56:17.809"/>
+</kw>
+<doc>Esse teste verifica o menu eletrônicos do site da Amazon.com.br
+e verifica a categoria computadores e Informática</doc>
+<tag>categorias</tag>
+<tag>menus</tag>
+<status status="FAIL" starttime="20230922 23:56:14.285" endtime="20230922 23:56:17.810">No keyword with name 'Acessar a home page do site Amazon.com.br' found.</status>
+</test>
+<doc>Essa suite testa o site da Amazon.com.br</doc>
+<status status="FAIL" starttime="20230922 23:56:14.070" endtime="20230922 23:56:17.811"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">categorias</stat>
+<stat pass="0" fail="1" skip="0">menus</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Amazon Testes">Amazon Testes</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
